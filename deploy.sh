@@ -1,8 +1,8 @@
 yarn build &&
-git check out gh-pages &&
+git checkout gh-pages &&
 rm -rf *.html *.js *.css *.png &&
 mv dist/* ./ &&
-rm -rf dist &&
+rm -rf dist;
 git add . &&
-git comit -m 'update' &&
+git commit -m 'update' &&
 git push 
